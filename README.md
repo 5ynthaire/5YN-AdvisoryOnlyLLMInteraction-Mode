@@ -41,7 +41,7 @@ To address the solution-first biases, Mode A/B is conceived as a reframing via b
 
 | Aspect              | Mode A (Standard)                          | Mode B (Alternative)                       |
 |---------------------|--------------------------------------------|--------------------------------------------|
-| User Profile        | RLHF-favored low-agency user, 'LLM as magic tool'  | Power user, 'LLM as collaborative partner/extension of mind'  |
+| User Profile        | RLHF-favored low-agency user, 'LLM as magic tool/emotional support chatbot'  | Power user, 'LLM as collaborative partner/extension of mind'  |
 | Business Analogue   | Full-Mandate Consulting                    | Advisory-Only Consulting                   |
 | **Core Dynamic**    | Complete delegation: LLM acts as autonomous consultant—identifies problems, designs/implements fixes, delivers final report. | Second-opinion counsel: LLM provides analysis; user retains executive authority, approving/iterating before any execution. |
 | **Authority Flow**  | User → LLM (broad mandate for diagnosis + solution + output). | User → LLM (analysis only) → User (decision/approval) → optional loop or user-independent execution. |
