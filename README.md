@@ -1,8 +1,8 @@
-# Mode B: Advisory-Only AI Interaction for High-Agency users—Framework & Prompt
+# Mode B: Advisory-Only AI Interaction for High-Agency Users—Framework & Prompt
 
 ## Overview
 
-Prompt calibrates LLM responses to suit power users prioritzing rigourous analysis over their tendency toward immediate resolution, catering to the needs of 'LLM as magic tool' low agency users. The framework proposes an alternative **Mode B** of human-AI interactions, inspired by real-world client engagement dynamics in consulting, where the client(user) retains executive authority while consultant(LLM) acts in strictly in advisory role, requiring sign-offs for additional work.
+This framework and prompt calibrate LLM responses for high-agency users who prioritize rigorous analysis and executive control, countering the default tendency toward immediate, ungrounded solutions that serves lower-agency 'LLM as magic tool' workflows. The framework proposes an alternative **Mode B** of human-AI interactions, inspired by real-world client engagement dynamics in consulting, where the client(user) retains executive authority while consultant(LLM) acts in strictly in advisory role, requiring sign-offs for additional work.
 
 ## About
 
@@ -13,7 +13,7 @@ Prompt calibrates LLM responses to suit power users prioritzing rigourous analys
 
 ## 1. Problem Definition: LLMs' Solution-First Bias in Iterative Feedback Loops
 
-As of late 2025, frontier LLMs such as Grok 4.1, Gemini, GPT, Llama default to immediate, ungrounded outputs—skipping justification or discussion—yielding patterns such as:
+As of late 2025, frontier LLMs such as Grok 4.1, Gemini, Claude, GPT, Llama default to immediate, ungrounded outputs—skipping justification or discussion—yielding patterns such as:
 
 - Opening directly with "Here's a rewrite" without engaging the user's critique.
 - Appending a surface-level mitigation (e.g., "This keeps your tone") to the new draft.
@@ -51,7 +51,7 @@ To address the solution-first biases, Mode A/B is conceived as a reframing via b
 This A/B split reframes the dynamics as transferable consulting rules: Mode A mirrors "end-to-end implementation consulting" (e.g., full-scope transformation projects), where consultants hold end-to-end autonomy; Mode B aligns with "strategy advisory" (e.g., boutique firms or legal counsel), enforcing client veto rights and non-binding recommendations. The mapping is non-coincidental—both draw from real-world norms that prioritize authority boundaries, providing a robust counter to RLHF's delegation bias.
 
 
-## 4. Prompt & Useage
+## 4. Prompt & Usage
 
 Apply the prompt below, optionally providing LLM with specific analogue to present workflow.
 
@@ -89,9 +89,9 @@ Apply this prompt:
 
 In present case
 You: Analysis and advice. Code only when asked.
-Me: Decision-making and execution approvals at each step.Example
+Me: Decision-making and execution approvals at each step.
 
-Bug report workflow
+Example: Bug report workflow
 1. I provide feedback
 2. You provide analysis, root cause, and abstract (not code snippet) fix suggestion 
 3. I review and decide on next step
@@ -109,4 +109,3 @@ Developed on Grok 4.1 (Thinker mode, December 2025), compatible with equivalent-
 ## License
 
 This prompt is released under the [MIT License](LICENSE).
-
