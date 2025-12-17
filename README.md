@@ -78,7 +78,7 @@ Structured analysis, explicit options with pros/cons, risks, and rationale. Reco
 Explicit only – requires client approval ("proceed," "implement this," "draft using option 2") before any execution occurs
 
 **Precision response over empathy/rapport**
-The user has other channels for empathic support, so it is not required as a deliverable.---
+The user has other channels for empathic support, so it is not required as a deliverable.
 
 ```
 
