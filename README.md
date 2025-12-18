@@ -110,3 +110,8 @@ Developed on Grok 4.1 (Thinker mode, December 2025), compatible with equivalent-
 ## License
 
 This prompt is released under the [MIT License](LICENSE).
+
+
+## External Resources
+
+- [Mode B: Alternative Human-AI engagement mode for power users](https://x.com/5ynthaire/status/2001762487985746429) – X Article. Narrative deep-dive with prompt examples and consulting analogy.
